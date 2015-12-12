@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="20.0.0"><source path="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res"/></dataSet><dataSet config="main"><source path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res"><file name="ic_launcher" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="ic_launcher" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi" type="drawable"/><file name="activity_bowed" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\layout\activity_bowed.xml" qualifiers="" type="layout"/><file name="activity_config" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\layout\activity_config.xml" qualifiers="" type="layout"/><file name="activity_dos" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\layout\activity_dos.xml" qualifiers="" type="layout"/><file name="activity_drone" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\layout\activity_drone.xml" qualifiers="" type="layout"/><file name="activity_fullscreen" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\layout\activity_fullscreen.xml" qualifiers="" type="layout"/><file name="activity_harmonic_minor" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\layout\activity_harmonic_minor.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_moog" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\layout\activity_moog.xml" qualifiers="" type="layout"/><file name="activity_natural_minor" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\layout\activity_natural_minor.xml" qualifiers="" type="layout"/><file name="activity_options" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\layout\activity_options.xml" qualifiers="" type="layout"/><file name="activity_simple2" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\layout\activity_simple2.xml" qualifiers="" type="layout"/><file name="activity_tuned" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\layout\activity_tuned.xml" qualifiers="" type="layout"/><file name="activity_variable_fret" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\layout\activity_variable_fret.xml" qualifiers="" type="layout"/><file name="config" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\menu\config.xml" qualifiers="" type="menu"/><file name="csound_base" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\menu\csound_base.xml" qualifiers="" type="menu"/><file name="dos" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\menu\dos.xml" qualifiers="" type="menu"/><file name="home" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\menu\home.xml" qualifiers="" type="menu"/><file name="moog" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\menu\moog.xml" qualifiers="" type="menu"/><file name="options" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\menu\options.xml" qualifiers="" type="menu"/><file name="simple2" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\menu\simple2.xml" qualifiers="" type="menu"/><file name="uno" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\menu\uno.xml" qualifiers="" type="menu"/><file name="variable_fret" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\menu\variable_fret.xml" qualifiers="" type="menu"/><file name="bowed" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\raw\bowed.csd" qualifiers="" type="raw"/><file name="dos" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\raw\dos.csd" qualifiers="" type="raw"/><file name="drone" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\raw\drone.csd" qualifiers="" type="raw"/><file name="moog" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\raw\moog.csd" qualifiers="" type="raw"/><file name="simple2" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\raw\simple2.csd" qualifiers="" type="raw"/><file name="test" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\raw\test.csd" qualifiers="" type="raw"/><file name="tuned" path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\raw\tuned.csd" qualifiers="" type="raw"/><file path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="BackgroundView">
+  <!-- Defining properties to use four different colors in 4 segments of BackgroundView -->
+    <attr format="color" name="colorSegmentOne"/>
+    <attr format="color" name="colorSegmentTwo"/>
+    <attr format="color" name="colorSegmentThree"/>
+    <attr format="color" name="colorSegmentFour"/>
+  </declare-styleable><declare-styleable name="ButtonBarContainerTheme">
+        <attr format="reference" name="metaButtonBarStyle"/>
+        <attr format="reference" name="metaButtonBarButtonStyle"/>
+    </declare-styleable><declare-styleable name="TileView">
+    <attr format="dimension" name="tileSize"/>
+  </declare-styleable></file><file path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\values\colors.xml" qualifiers=""><color name="black_overlay">#66000000</color></file><file path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\values\strings.xml" qualifiers=""><string name="action_settings">Settings</string><string name="title_activity_main">MainActivity</string><string name="title_activity_variable_fret">VariableFret</string><string name="title_activity_config">Config</string><string name="title_activity_natural_minor">NaturalMinor</string><string name="title_activity_drone">Drone</string><string name="dummy_content">DUMMY\nCONTENT</string><string-array name="octave_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array><string name="hello_world">Hello world!</string><string name="title_activity_bowed">Bowed</string><string name="instructions">Toch up and down for pitch. Left and right for modulation</string><string name="title_activity_simple2">Simple2</string><string name="title_activity_tuned">Tuned</string><string-array name="fret_array">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array><string-array name="instrument_array">
+        <item>Simple Sine</item>
+        <item>Bowed</item>
+    </string-array><string name="dummy_button">Save!</string><string name="title_activity_home">HomeActivity</string><string name="title_activity_not_mine">NotMine</string><string-array name="scale_array">
+        <item>Chromatic</item>
+        <item>Major</item>
+        <item>Harmonic Minor</item>
+        <item>Natural Minor</item>
+        <item>Lydian Mode</item>
+        <item>Aeolian Mode</item>
+        <item>Dorian Mode</item>
+    </string-array><string name="title_activity_options_fragment">OptionsFragment</string><string name="title_activity_dos">Dos</string><string name="title_activity_fullscreen">FullscreenActivity</string><string name="title_activity_harmonic_minor">HarmonicMinor</string><string name="title_activity_options">OptionsActivity</string><string name="app_name">OCAS</string><string name="title_activity_moog">Moog</string><string-array name="root_note_array">
+        <item>C</item>
+        <item>C#</item>
+        <item>D</item>
+        <item>D#</item>
+        <item>E</item>
+        <item>F</item>
+        <item>F#</item>
+        <item>G</item>
+        <item>G#</item>
+        <item>A</item>
+        <item>A#</item>
+        <item>B</item>
+    </string-array></file><file path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\values\styles.xml" qualifiers=""><style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style><style name="ButtonBarButton"/><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style></file><file path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="FullscreenTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style><style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file path="C:\Users\Jacob\Documents\ocas-master1\app\src\main\res\values-w820dp\dimens.xml" qualifiers="w820dp"><dimen name="activity_horizontal_margin">64dp</dimen></file></source><source path="C:\Users\Jacob\Documents\ocas-master1\app\build\generated\res\rs\debug"/><source path="C:\Users\Jacob\Documents\ocas-master1\app\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\Jacob\Documents\ocas-master1\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="BackgroundView"><attr format="color" name="colorSegmentOne"/><attr format="color" name="colorSegmentTwo"/><attr format="color" name="colorSegmentThree"/><attr format="color" name="colorSegmentFour"/></declare-styleable><declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="metaButtonBarStyle"/><attr format="reference" name="metaButtonBarButtonStyle"/></declare-styleable><declare-styleable name="TileView"><attr format="dimension" name="tileSize"/></declare-styleable></configuration></mergedItems></merger>
