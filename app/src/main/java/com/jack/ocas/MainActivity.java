@@ -2,6 +2,7 @@ package com.jack.ocas;
 
 import com.jack.ocas.instruments.Bowed;
 import com.jack.ocas.instruments.Drone;
+import com.jack.ocas.instruments.Keyboard;
 import com.jack.ocas.instruments.Moog;
 import com.jack.ocas.instruments.Simple2;
 import com.jack.ocas.instruments.VariableFret;
@@ -19,12 +20,12 @@ public class MainActivity extends CsoundBase {
 	String[] testNames = new String[] {
 			"Settings",  "Drone", "Simple Sine", 
 			"Simple Sine 2", "Moog", "Bowed",
-			""};
+			"Keyboard"};
 
 	@SuppressWarnings("rawtypes")
 	Class[] activities = new Class[] {
 			OptionsActivity.class, Drone.class, VariableFret.class, 
-			Simple2.class, Moog.class, Bowed.class};
+			Simple2.class, Moog.class, Bowed.class, Keyboard.class};
 	
 	
 	/** Called when the activity is first created. */
@@ -44,7 +45,7 @@ public class MainActivity extends CsoundBase {
 					View arg1, int position, long arg3) {
 				
 				if(activities[position]==null){
-					System.out.println("what the hell?");
+					System.out.println("what?");
 					return;
 				}
 

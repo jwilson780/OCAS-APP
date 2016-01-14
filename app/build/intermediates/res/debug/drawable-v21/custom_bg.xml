@@ -1,0 +1,4 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+    <item android:drawable="@color/colorDivider"/>
+</ripple><!-- From: file:/C:/Users/Jacob/Documents/ocas-master1/app/src/main/res/drawable-v21/custom_bg.xml -->

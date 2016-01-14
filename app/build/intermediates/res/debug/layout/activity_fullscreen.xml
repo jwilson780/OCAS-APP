@@ -2,7 +2,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
     tools:context="com.jack.ocas.FullscreenActivity" >
 
     <!--
@@ -13,10 +12,13 @@
 
     <TextView
         android:id="@+id/fullscreen_content"
+        android:background="@drawable/custom_bg"
+        android:clickable="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:keepScreenOn="true"
+
         android:text="@string/dummy_content"
         android:textColor="#33b5e5"
         android:textSize="50sp"
@@ -30,7 +32,8 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fitsSystemWindows="true" >
+        android:fitsSystemWindows="true">
+
 
         <LinearLayout
             android:id="@+id/fullscreen_content_controls"
@@ -38,7 +41,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
-            android:background="@color/black_overlay"
             android:orientation="horizontal"
             tools:ignore="UselessParent" >
 

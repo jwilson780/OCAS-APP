@@ -19,6 +19,7 @@
     <string name="title_activity_config">Config</string>
     <string name="title_activity_options_fragment">OptionsFragment</string>
     <string name="title_activity_options">OptionsActivity</string>
+    <string name="coordinates">Touch at some point in the canvas</string>
 
     <string-array name="instrument_array">
         <item>Simple Sine</item>
@@ -76,6 +77,7 @@
     </string-array>
 
     <string name="title_activity_moog">Moog</string>
+    <string name="title_activity_keyboard">Keyboard</string>
     <string name="title_activity_simple2">Simple2</string>
     <string name="title_activity_bowed">Bowed</string>
     <string name="title_activity_not_mine">NotMine</string>

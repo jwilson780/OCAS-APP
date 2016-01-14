@@ -2,6 +2,10 @@ package com.jack.ocas.instruments;
 
 import java.io.File;
 
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -19,7 +23,7 @@ import csnd6.controlChannelType;
 
 
 public class Drone extends CsoundBase implements
-	OnTouchListener, CsoundObjListener, CsoundBinding{
+		OnTouchListener, CsoundObjListener, CsoundBinding{
 
 	public View multiTouchView;
 
@@ -43,6 +47,7 @@ public class Drone extends CsoundBase implements
 		multiTouchView = new View(this);
 
 		multiTouchView.setOnTouchListener(this);
+		multiTouchView.setBackgroundColor(0xff000000);
 		setContentView(multiTouchView);
 
 		//we are pulling the raw text of the csnd file
@@ -54,7 +59,6 @@ public class Drone extends CsoundBase implements
 		//feed csound the raw file.
 		csoundObj.startCsound(foo);
 	}
-
 
 	/* The basic reason to override the onTouch method is to tell
 	 * pass the CsoundOject different things when different touch events occur.

@@ -6,6 +6,7 @@ import java.io.File;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
@@ -42,6 +43,7 @@ public class VariableFret extends CsoundBase implements
 	float fretTouch;
 	float lowestNote;
 	float ratio;
+
 
 	CsoundMYFLTArray touchXPtr[] = new CsoundMYFLTArray[10];
 	CsoundMYFLTArray touchYPtr[] = new CsoundMYFLTArray[10];
@@ -88,9 +90,9 @@ public class VariableFret extends CsoundBase implements
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 
 		octave=prefs.getInt("octave", 4);
-		fretCount=prefs.getInt("fretCount", 10);
+		fretCount=prefs.getInt("fretCount", 12);
 		root=prefs.getString("root", "C");
-		scale=prefs.getString("scale", "major");
+		scale=prefs.getString("scale", "Chromatic");
 
 
 		ratio=((float)fretCount)/10;

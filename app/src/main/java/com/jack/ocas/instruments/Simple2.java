@@ -14,7 +14,5 @@ public class Simple2 extends VariableFret{
 	}
 
 	@Override
-	public String getSound(){
-		return getResourceFileAsString(R.raw.simple2);
-	}
+	public String getSound(){return getResourceFileAsString(R.raw.simple2);}
 }

@@ -15,8 +15,9 @@ ADDED from AndroidManifest.xml:2:1
 		INJECTED from AndroidManifest.xml:0:0
 uses-sdk
 ADDED from AndroidManifest.xml:7:5
-MERGED from com.android.support:support-v4:20.0.0:16:5
+MERGED from com.android.support:support-v4:21.0.0:15:5
 MERGED from ocas-master1:CsoundAndroid:unspecified:8:5
+MERGED from com.github.traex.rippleeffect:library:1.3:8:5
 	android:targetSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
@@ -29,122 +30,139 @@ ADDED from AndroidManifest.xml:8:5
 MERGED from ocas-master1:CsoundAndroid:unspecified:14:5
 	android:name
 		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from AndroidManifest.xml:9:2
+ADDED from AndroidManifest.xml:10:2
 MERGED from ocas-master1:CsoundAndroid:unspecified:15:5
 	android:name
-		ADDED from AndroidManifest.xml:9:19
-uses-feature#android.hardware.audio.low_latency
-ADDED from AndroidManifest.xml:10:5
-	android:required
-		ADDED from AndroidManifest.xml:10:69
-	android:name
 		ADDED from AndroidManifest.xml:10:19
+uses-feature#android.hardware.audio.low_latency
+ADDED from AndroidManifest.xml:11:5
+	android:required
+		ADDED from AndroidManifest.xml:11:69
+	android:name
+		ADDED from AndroidManifest.xml:11:19
 application
-ADDED from AndroidManifest.xml:12:5
-MERGED from com.android.support:support-v4:20.0.0:17:5
+ADDED from AndroidManifest.xml:13:5
+MERGED from com.android.support:support-v4:21.0.0:16:5
+MERGED from com.github.traex.rippleeffect:library:1.3:12:5
 	android:label
-		ADDED from AndroidManifest.xml:15:9
-	android:allowBackup
-		ADDED from AndroidManifest.xml:13:9
-	android:icon
-		ADDED from AndroidManifest.xml:14:9
-	android:theme
 		ADDED from AndroidManifest.xml:16:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:14:9
+	android:icon
+		ADDED from AndroidManifest.xml:15:9
+	android:theme
+		ADDED from AndroidManifest.xml:17:9
 activity#com.jack.ocas.CsoundBase
-ADDED from AndroidManifest.xml:17:9
+ADDED from AndroidManifest.xml:18:9
 	android:label
+		ADDED from AndroidManifest.xml:20:13
+	android:name
 		ADDED from AndroidManifest.xml:19:13
-	android:name
-		ADDED from AndroidManifest.xml:18:13
 activity#com.jack.ocas.MainActivity
-ADDED from AndroidManifest.xml:21:9
+ADDED from AndroidManifest.xml:22:9
 	android:label
+		ADDED from AndroidManifest.xml:24:13
+	android:name
 		ADDED from AndroidManifest.xml:23:13
-	android:name
-		ADDED from AndroidManifest.xml:22:13
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:24:13
+ADDED from AndroidManifest.xml:25:13
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:25:17
+ADDED from AndroidManifest.xml:26:17
 	android:name
-		ADDED from AndroidManifest.xml:25:25
+		ADDED from AndroidManifest.xml:26:25
 category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:27:17
+ADDED from AndroidManifest.xml:28:17
 	android:name
-		ADDED from AndroidManifest.xml:27:27
+		ADDED from AndroidManifest.xml:28:27
 activity#com.jack.ocas.instruments.Drone
-ADDED from AndroidManifest.xml:30:9
+ADDED from AndroidManifest.xml:31:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:33:4
+		ADDED from AndroidManifest.xml:34:4
 	android:label
-		ADDED from AndroidManifest.xml:34:13
-	android:configChanges
-		ADDED from AndroidManifest.xml:32:13
-	android:theme
 		ADDED from AndroidManifest.xml:35:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:33:13
+	android:theme
+		ADDED from AndroidManifest.xml:36:13
 	android:name
-		ADDED from AndroidManifest.xml:31:13
+		ADDED from AndroidManifest.xml:32:13
 activity#com.jack.ocas.instruments.VariableFret
-ADDED from AndroidManifest.xml:37:9
+ADDED from AndroidManifest.xml:38:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:40:4
+		ADDED from AndroidManifest.xml:41:4
 	android:label
-		ADDED from AndroidManifest.xml:41:13
-	android:configChanges
-		ADDED from AndroidManifest.xml:39:13
-	android:theme
 		ADDED from AndroidManifest.xml:42:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:40:13
+	android:theme
+		ADDED from AndroidManifest.xml:43:13
 	android:name
-		ADDED from AndroidManifest.xml:38:4
+		ADDED from AndroidManifest.xml:39:4
 activity#com.jack.ocas.OptionsActivity
-ADDED from AndroidManifest.xml:44:9
+ADDED from AndroidManifest.xml:45:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:47:4
+		ADDED from AndroidManifest.xml:48:4
 	android:label
-		ADDED from AndroidManifest.xml:48:13
-	android:configChanges
-		ADDED from AndroidManifest.xml:46:13
-	android:theme
 		ADDED from AndroidManifest.xml:49:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:47:13
+	android:theme
+		ADDED from AndroidManifest.xml:50:13
 	android:name
-		ADDED from AndroidManifest.xml:45:13
+		ADDED from AndroidManifest.xml:46:13
 activity#com.jack.ocas.instruments.Moog
-ADDED from AndroidManifest.xml:51:9
+ADDED from AndroidManifest.xml:52:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:54:4
-	android:label
-		ADDED from AndroidManifest.xml:56:13
-	android:configChanges
-		ADDED from AndroidManifest.xml:53:13
-	android:theme
 		ADDED from AndroidManifest.xml:55:4
+	android:label
+		ADDED from AndroidManifest.xml:57:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:54:13
+	android:theme
+		ADDED from AndroidManifest.xml:56:13
 	android:name
-		ADDED from AndroidManifest.xml:52:13
+		ADDED from AndroidManifest.xml:53:13
 activity#com.jack.ocas.instruments.Simple2
-ADDED from AndroidManifest.xml:59:9
+ADDED from AndroidManifest.xml:60:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:62:4
+		ADDED from AndroidManifest.xml:63:4
 	android:label
-		ADDED from AndroidManifest.xml:63:13
+		ADDED from AndroidManifest.xml:64:13
 	android:configChanges
-		ADDED from AndroidManifest.xml:61:13
+		ADDED from AndroidManifest.xml:62:13
 	android:theme
-		ADDED from AndroidManifest.xml:64:4
+		ADDED from AndroidManifest.xml:65:13
 	android:name
-		ADDED from AndroidManifest.xml:60:4
-activity#com.jack.ocas.instruments.Bowed
-ADDED from AndroidManifest.xml:67:9
+		ADDED from AndroidManifest.xml:61:4
+activity#com.jack.ocas.instruments.Keyboard
+ADDED from AndroidManifest.xml:68:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:70:4
-	android:label
 		ADDED from AndroidManifest.xml:71:13
-	android:configChanges
-		ADDED from AndroidManifest.xml:69:13
-	android:theme
+	android:label
 		ADDED from AndroidManifest.xml:72:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:70:13
+	android:theme
+		ADDED from AndroidManifest.xml:73:13
 	android:name
-		ADDED from AndroidManifest.xml:68:13
+		ADDED from AndroidManifest.xml:69:13
+activity#com.jack.ocas.instruments.Bowed
+ADDED from AndroidManifest.xml:76:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:79:4
+	android:label
+		ADDED from AndroidManifest.xml:80:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:78:13
+	android:theme
+		ADDED from AndroidManifest.xml:81:13
+	android:name
+		ADDED from AndroidManifest.xml:77:13
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from ocas-master1:CsoundAndroid:unspecified:12:5
 	android:name

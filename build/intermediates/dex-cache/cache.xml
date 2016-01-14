@@ -2,32 +2,39 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
-        <dex dex="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-9d52b7041aadbb89fd228c5b0aa4616fd568d701.jar" />
-    </item>
-    <item
-        jar="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
-        <dex dex="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\pre-dexed\debug\classes-afcc29138b0064c18e6c29b8c2a85540f8ea0b8c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Jacob\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
-        <dex dex="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-a767a161adf0381251ac678746aa6e25b9e153a4.jar" />
-    </item>
-    <item
         jar="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\exploded-aar\ocas-master1\CsoundAndroid\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="09729e6c2da52da7099ab0c42397e7f6da6746c2">
         <dex dex="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\pre-dexed\debug\classes-8bc4dd9632bfe143dbe114f0f29d7cf2f626af6f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\pre-dexed\debug\classes-7084b15213a25e7fa972725ff18b2768e181dc9c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacob\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-5e2a716f9f52325ded63ecb18cf567d821380082.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\exploded-aar\com.github.traex.rippleeffect\library\1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ee17feb34ce104bc17d1a1e64346d7f779ebb066">
+        <dex dex="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\pre-dexed\debug\classes-1ef91c28e92a1da38d5f4c9a7ade271df5cd6f53.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Jacob\Documents\ocas-master1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-af7604f62b3c887760a3634d7f035848eaa6657e.jar" />
     </item>
 
 </items>
