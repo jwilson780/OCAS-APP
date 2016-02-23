@@ -62,10 +62,7 @@ public class BackgroundView extends View {
 //            canvas.drawLine(0f, (y+1)*fretSize, width, (y+1)*fretSize, fretColor);
 		}
 	}
-	/*protected void onDraw(Canvas canvas)
-	{
-			Canvas g = canvas;
-			g.drawBitmap(background, 0, 0, null);
-	}*/
+
+
 
 }

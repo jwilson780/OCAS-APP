@@ -19,6 +19,7 @@ import android.view.View;
 import android.view.View.OnTouchListener;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -38,7 +39,7 @@ import csnd6.controlChannelType;
 public class KeyboardFret extends CsoundBase implements
 	OnTouchListener, CsoundObjListener, CsoundBinding{
 
-	//public TextView fretView;
+	//public ImageView fretView;
 	public KeyboardView fretView;
 	int fretCount;
 	int octave;
@@ -87,7 +88,7 @@ public class KeyboardFret extends CsoundBase implements
 		//fretView.setBackground(getResources().getDrawable(R.drawable.custom_bg));
 		//setContentView(R.layout.keyboard);
 		setContentView(fretView);
-		//fretView = (TextView) findViewById(R.id.keys);
+		//fretView = (ImageView) findViewById(R.id.keys);
 		fretView.setOnTouchListener(this);
 
 		String sound = getSound();
@@ -98,6 +99,7 @@ public class KeyboardFret extends CsoundBase implements
 
 	}
 
+	//Not used but it effectly overlays a view to show touches, major lag problems!
 	class DrawingView extends SurfaceView {
 
 		private final SurfaceHolder surfaceHolder;
@@ -233,8 +235,8 @@ public class KeyboardFret extends CsoundBase implements
 							touchY[id] =getNote(getFret(event, i));
 
 
-							//int thisFret=getFret(event, i);
-							//Log.d("ACTION_DOWN", "thisFret="+thisFret);
+							int thisFret=getFret(event, i);
+							Log.d("ACTION_DOWN", "thisFret="+thisFret);
 
 							//note=getNote(thisFret);
 							//Log.d("ACTION_DOWN", "note="+thisFret);

@@ -7,8 +7,10 @@ import com.jack.ocas.instruments.Moog;
 import com.jack.ocas.instruments.Simple2;
 import com.jack.ocas.instruments.VariableFret;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -57,4 +59,6 @@ public class MainActivity extends CsoundBase {
 		});
 
 	}
+
+
 }

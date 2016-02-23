@@ -160,14 +160,15 @@ containing a value of this type.
     }
     public static final class color {
         public static final int colorAccent=0x7f090000;
-        public static final int colorDivider=0x7f090001;
-        public static final int colorHighlight=0x7f090002;
-        public static final int colorPrimary=0x7f090003;
-        public static final int colorPrimaryDark=0x7f090004;
-        public static final int colorPrimaryLight=0x7f090005;
-        public static final int colorPrimaryText=0x7f090006;
-        public static final int colorSecondaryText=0x7f090007;
-        public static final int rippelColor=0x7f090008;
+        public static final int colorBlack=0x7f090001;
+        public static final int colorDivider=0x7f090002;
+        public static final int colorHighlight=0x7f090003;
+        public static final int colorPrimary=0x7f090004;
+        public static final int colorPrimaryDark=0x7f090005;
+        public static final int colorPrimaryLight=0x7f090006;
+        public static final int colorPrimaryText=0x7f090007;
+        public static final int colorSecondaryText=0x7f090008;
+        public static final int rippelColor=0x7f090009;
     }
     public static final class dimen {
         public static final int activity_horizontal_margin=0x7f070000;
@@ -175,23 +176,29 @@ containing a value of this type.
     }
     public static final class drawable {
         public static final int custom_bg=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int keyboard=0x7f020002;
+        public static final int fsu=0x7f020001;
+        public static final int fsu2=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int keyboard=0x7f020004;
     }
     public static final class id {
-        public static final int action_settings=0x7f0c000c;
+        public static final int action_settings=0x7f0c0010;
         public static final int doubleRipple=0x7f0c0000;
         public static final int dummy_button=0x7f0c0005;
         public static final int fret_array=0x7f0c0008;
         public static final int fullscreen_content=0x7f0c0003;
         public static final int fullscreen_content_controls=0x7f0c0004;
-        public static final int keys=0x7f0c000b;
+        public static final int keys=0x7f0c000f;
         public static final int list_view=0x7f0c0006;
         public static final int octave_array=0x7f0c000a;
         public static final int rectangle=0x7f0c0001;
         public static final int root_note_array=0x7f0c0009;
         public static final int scale_array=0x7f0c0007;
         public static final int simpleRipple=0x7f0c0002;
+        public static final int textView=0x7f0c000b;
+        public static final int textView2=0x7f0c000c;
+        public static final int textView3=0x7f0c000d;
+        public static final int textView4=0x7f0c000e;
     }
     public static final class layout {
         public static final int activity_bowed=0x7f040000;

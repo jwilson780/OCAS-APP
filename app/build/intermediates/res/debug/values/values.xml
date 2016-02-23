@@ -59,6 +59,7 @@
     <!-- From: file:/C:/Users/Jacob/Documents/ocas-master1/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="colorAccent">#FF0000</color>
+    <color name="colorBlack">#000000</color>
     <color name="colorDivider">#B6B6B6</color>
     <color name="colorHighlight">#B6B6B6</color>
     <color name="colorPrimary">#03A9F4</color>

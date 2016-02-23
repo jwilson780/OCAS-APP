@@ -7,6 +7,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
@@ -227,4 +228,6 @@ public class Drone extends CsoundBase implements
 		// TODO Auto-generated method stub
 
 	}
+
+
 }
